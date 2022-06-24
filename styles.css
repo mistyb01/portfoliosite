@@ -23,7 +23,7 @@ h1 {
     align-items: center; /*centers flex items vertically*/
     flex-wrap: nowrap;
     flex-direction: row;
-    padding: 10px 50px; /*top right bottom left*/
+    padding: 10px 100px; /*top right bottom left*/
     margin-bottom: 20px;
 }
 
@@ -64,7 +64,26 @@ h1 {
 }
 
 .project-card img {
-    min-width: 200px;
+    width: 200px;
     height: auto;
     margin-right: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
