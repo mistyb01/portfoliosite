@@ -11,6 +11,11 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+h1 {
+    border-bottom: 3px dotted pink;
+    margin-bottom: 20px;
+}
+
 .nav {
     background-color: lightpink;
     display: flex;
@@ -44,6 +49,22 @@ body {
 }
 
 .content {
-    background-color: rgb(255, 208, 208);
+   /* background-color: rgb(255, 208, 208);*/
     margin: 0px 15%;
+}
+
+.project-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.project-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card img {
+    min-width: 200px;
+    height: auto;
+    margin-right: 15px;
 }
